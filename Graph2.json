@@ -1,16 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "data": {"url": "https://raw.githubusercontent.com/Brian-Fonseca/Assignment-2/main/Happiness%20Raw%20Data.csv"},
-  "width": 400,
-  "height": 300,
-  "mark": "boxplot",
+  "data": {"url": "https://raw.githubusercontent.com/Brian-Fonseca/Assignment-2/main/Graph2data.json"},
+  "mark": "bar",
   "encoding": {
-    "x": {"field": "Regions2", "type": "nominal"},
-    "color": {"field": "Regions2", "type": "nominal", "legend": null},
-    "y": {
-      "field": "HappinessScores",
-      "type": "quantitative",
-      "scale": {"zero": false}
-    }
+    "x": {"aggregate": "sum", "field": "Total"},
+    "y": {"field": "Country", "sort": {"encoding": "x"}},
+    "color": {"field": "Factor"},
   }
 }
