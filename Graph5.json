@@ -1,17 +1,33 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+   "width": 350,
+  "height": 250,
   "data": {"url": "https://raw.githubusercontent.com/Brian-Fonseca/Assignment-2/main/Happiness%20Raw%20Data.csv"},
   "title": "2D Histogram Heatmap of record from 2015-2022",
+  "params": [{
+"name": "Happiness_Score",
+"value": 0,
+"bind": {
+"input": "range",
+"min": 2.0,
+"max": 7.8,
+"step": 0.5,
+"name": "Happiness Score: "
+}
+}
+],
   "transform": [{
     "filter": {"and": [
       {"field": "HappinessScore2", "valid": true},
       {"field": "Freedom2", "valid": true}
-    ]}
-  }],
+      
+    ]}},
+    {"filter" : "datum.HappinessScore2 > Happiness_Score"}
+  ],
   "mark": "rect",
-  "width": 300,
-  "height": 200,
+  
   "encoding": {
+    
     "x": {
       "bin": {"maxbins":20},
       "field": "HappinessScore2",
@@ -29,6 +45,7 @@
       "type": "quantitative"
     }
   },
+  
   "config": {
     "view": {
       "stroke": "transparent"
