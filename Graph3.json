@@ -1,15 +1,13 @@
 {
 
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 300,
+  "width": 400,
   "height": 300,
 "title": "Boxplots for Different Region's Happiness Scores",
   "data": {"url": "https://raw.githubusercontent.com/Brian-Fonseca/Assignment-2/main/Happiness%20Raw%20Data.csv"},
-  "width": 400,
-  "height": 300,
   "mark": "boxplot",
   "encoding": {
-    "x": {"field": "Regions2", "type": "nominal", "scale": {
+    "x": {"field": "Regions2", "title" : "Regions", "type": "nominal", "axis" : {"labelAngle": 60}, "scale": {
 "domain": [
 "Australia and New Zealand", "Central And Eastern Europe", "Eastern Asia", "Latin American And the Carribean", "Middle East and North Africa", "North America", "Southern Asia", "Sub-Saharan Africa", "Western Europe", "South Eastern Asia" ]}
 },
