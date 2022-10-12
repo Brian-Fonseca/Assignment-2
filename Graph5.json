@@ -43,7 +43,7 @@
     "color": {
       "aggregate": "count",
       "type": "quantitative"
-    },
+    }
   },
   
   "config": {
