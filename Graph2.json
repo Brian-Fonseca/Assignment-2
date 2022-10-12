@@ -38,6 +38,17 @@
 {"Total":1.163,"Country":"Bulgaria","Factor":"Social Support"},
 {"Total":0.64,"Country":"Bulgaria","Factor":"Life Expectancy"},
 {"Total":0.563,"Country":"Bulgaria","Factor":"Freedom"}]},
+"params": [
+{
+"name": "Factor_selection",
+"bind": {
+"input": "select",
+"options": [null, "Freedom", "GDP", "Life Expectancy", "Social Support"],
+"labels": ["Show All", "Freedom", "GDP", "Life Expectancy", "Social Support"],
+"name": "Factor_selection:"}
+}
+],
+"transform": [{"filter": "Factor_selection == null || datum.Factor == Factor_selection"}],
   "mark": "bar",
   "encoding": {
     "x": {"aggregate": "sum", "field": "Total"},
