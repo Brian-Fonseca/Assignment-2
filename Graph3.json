@@ -13,7 +13,7 @@
 "domain": [
 "Australia and New Zealand", "Central And Eastern Europe", "Eastern Asia", "Latin American And the Carribean", "Middle East and North Africa", "North America", "Southern Asia", "Sub-Saharan Africa", "Western Europe", "South Eastern Asia" ]}
 },
-    "color": {"field": "Regions2", "type": "nominal", "legend": null, },
+    "color": {"field": "Regions2", "type": "nominal", "legend": null},
     "y": {
       "field": "HappinessScores",
       "type": "quantitative",
