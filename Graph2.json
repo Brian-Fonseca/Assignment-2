@@ -42,6 +42,6 @@
   "encoding": {
     "x": {"aggregate": "sum", "field": "Total"},
     "y": {"field": "Country", "sort": {"encoding": "x"}},
-    "color": {"field": "Factor"},
+    "color": {"field": "Factor"}
   }
 }
