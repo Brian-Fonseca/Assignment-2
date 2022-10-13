@@ -2,26 +2,51 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
    "width": 350,
   "height": 300,
-  "title" : "Australia vs World Average Happiness Scores", 
+  "title" : "Countries vs World Average Happiness Scores", 
   "description": "Autralia vs World Happiness scores from years 2015-2022",
   "data": {"url": "https://raw.githubusercontent.com/Brian-Fonseca/Assignment-2/main/Happiness%20Raw%20Data.csv"},
-"layer": [
-    {
-      "mark": "line",
-      "encoding": {
-        "x": {"field": "Year1", "type": "temporal" , "title" : "Year"},
-        "y": {"field": "Australia Score", "type": "quantitative", "scale": {"domain": [5.0, 7.6]}},
-        "color": {"datum": "Australia"}
-      }
-    },
-    {
-       "mark": "line",
-      "encoding": {
-        "x": {"field": "Year1", "type": "temporal"},
-        "y": {"field": "World Average", "type": "quantitative", "title" : "Happines Index Scores"},
-        "color": {"datum": "World"}
-      }
-    }
-    
-  ]
+  "params": [
+{
+"name": "Country_selection",
+"bind": {
+"input": "select",
+"options": [
+null,
+"Australia",
+"World",
+"Brazil",
+"China",
+"Ecuador",
+"Iraq"
+],
+"labels":[
+"Show All",
+"Australia",
+"World",
+"Brazil",
+"China",
+"Ecuador",
+"Iraq"
+],
+"name": "Country: "}},
+{
+"name": "Year_Above",
+"value": 0,
+"bind": {
+"input": "range",
+"min": 2015,
+"max": 2022,
+"step": 1,
+"name": "Minimum Population: "
+}
+}
+],
+"transform": [{"filter": "Country_selection == null || datum.Place == Country_selection"}, {"filter": "datum.Year1 > Year_Above"}],
+ "mark": "line",
+"encoding": {
+    "x": {"field": "Year1", "type": "temporal", "title": "Year"},
+    "y": {"field": "Scores", "type": "quantitative","title": "Happiness Score", "scale": {"domain": [4.0, 7.6]}},
+    "color": {"field": "Place", "type": "nominal", "scale": {"domain": ["Australia", 
+    "World", "Brazil", "China", "Ecuador", "Iraq"]}}
+  }
 }
