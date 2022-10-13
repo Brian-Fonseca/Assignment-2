@@ -27,7 +27,13 @@ null, "Australia and New Zealand", "Central And Eastern Europe", "Eastern Asia",
 "domain": [
 "Australia and New Zealand", "Central And Eastern Europe", "Eastern Asia", "Latin American And the Carribean", "Middle East and North Africa", "North America", "Southern Asia", "Sub-Saharan Africa", "Western Europe", "South Eastern Asia" ]}
 },
-    "color": {"field": "Regions2", "type": "nominal", "legend": null},
+    "color": {"field": "Regions2", "type": "nominal", "legend": null, "scale" :{"domain":["Australia and New Zealand", "Western Europe", "Sub-Saharan Africa", "Southern Asia",
+"South Eastern Asia", "North America", "Middle East and North Africa", 
+"Latin American And the Carribean", "Eastern Asia", "Central And Eastern Europe"
+],"range": [
+"#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a"
+]}
+},
     "y": {
       "field": "HappinessScores",
       "type": "quantitative",
