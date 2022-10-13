@@ -80,6 +80,7 @@
 "opacity": {"value": 0.4},
 "size": {
 "field": "HappinessScores",
+"title" : "Happiness Scores",
 "type": "quantitative",
 "scale": {
 "type": "threshold",
