@@ -2,6 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 250,
   "height": 200,
+  "title": "Happiness score of countries composed of 4 highest factors"
   "data": {"values": [{"Total":1.892,"Country":"Finland","Factor":"GDP"},
 {"Total":1.258,"Country":"Finland","Factor":"Social Support"},
 {"Total":0.775,"Country":"Finland","Factor":"Life Expectancy"},
@@ -51,7 +52,7 @@
 "transform": [{"filter": "Factor_selection == null || datum.Factor == Factor_selection"}],
   "mark": "bar",
   "encoding": {
-    "x": {"aggregate": "sum", "field": "Total", "title": "Total score of Factors"},
+    "x": {"aggregate": "sum", "field": "Total", "title": "Sum of factors"},
     "y": {"field": "Country", "sort": {"encoding": "x"}},
     "color": {"field": "Factor"},
     "tooltip": [{"field": "Country"}, {"field": "Factor"}, {"field": "Total"}
