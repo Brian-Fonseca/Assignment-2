@@ -47,6 +47,11 @@ null,
     "x": {"field": "Year1", "type": "temporal", "title": "Year"},
     "y": {"field": "Scores", "type": "quantitative","title": "Happiness Score", "scale": {"domain": [4.0, 7.6]}},
     "color": {"field": "Place", "type": "nominal", "scale": {"domain": ["Australia", 
-    "World", "Brazil", "China", "Ecuador", "Iraq"]}}
+    "World", "Brazil", "China", "Ecuador", "Iraq"]}},
+"tooltip": [
+{"field": "Place", "type": "nominal", "title": "Country"},
+{"field": "Scores", "type": "quantitative", "title": "Happiness Score","format": ","}
+]
+
   }
 }
