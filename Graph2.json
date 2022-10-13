@@ -46,7 +46,7 @@
 "input": "select",
 "options": [null, "Freedom", "GDP", "Life Expectancy", "Social Support"],
 "labels": ["Show All", "Freedom", "GDP", "Life Expectancy", "Social Support"],
-"name": "Factor_selection:"}
+"name": "Factor selection:"}
 }
 ],
 "transform": [{"filter": "Factor_selection == null || datum.Factor == Factor_selection"}],
