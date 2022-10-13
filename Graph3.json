@@ -5,6 +5,22 @@
   "height": 300,
 "title": "Boxplots for Different Region's Happiness Scores",
   "data": {"url": "https://raw.githubusercontent.com/Brian-Fonseca/Assignment-2/main/Happiness%20Raw%20Data.csv"},
+  "params": [
+{
+"name": "Region_selection",
+"bind": {
+"input": "select",
+"options": [
+null, "Australia and New Zealand", "Central And Eastern Europe", "Eastern Asia", "Latin American And the Carribean", "Middle East and North Africa", "North America", "Southern Asia", "Sub-Saharan Africa", "Western Europe", "South Eastern Asia"],
+"labels":[
+"Show All", "Australia and New Zealand", "Central And Eastern Europe", "Eastern Asia", "Latin American And the Carribean", "Middle East and North Africa", "North America", "Southern Asia", "Sub-Saharan Africa", "Western Europe", "South Eastern Asia"
+],
+"name": "Region Selection: "
+}
+}
+],
+"transform": [{"filter": "Region_selection == null || datum.Regions2 == Region_selection"}
+],
   "mark": "boxplot",
   "encoding": {
     "x": {"field": "Regions2", "title" : "Regions", "type": "nominal", "axis" : {"labelAngle": 60}, "scale": {
