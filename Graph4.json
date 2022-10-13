@@ -89,7 +89,8 @@
 "legend": {"format": ".1s"}
 },
 "tooltip": [
-{"field": "Regionsp", "type": "nominal"},
+{"field": "Countries", "type": "nominal"},
+{"field": "Regionsp", "type": "nominal", "title": "Region"},
 {"field": "Happiness Scores", "type": "quantitative", "format": ","},
 {"field": "GDP", "type": "quantitative", "format": ","},
 {"field": "SocialSupport", "type": "quantitative", "format": ","}
