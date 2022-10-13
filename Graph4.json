@@ -34,7 +34,12 @@
 "step": 0.5,
 "name": "Minimum Happiness: "
 }
-}
+},
+{
+    "name": "grid",
+    "select": "interval",
+    "bind": "scales"
+  }
 
 ],
 "transform": [
