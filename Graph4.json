@@ -91,7 +91,7 @@
 "tooltip": [
 {"field": "Countries", "type": "nominal"},
 {"field": "Regionsp", "type": "nominal", "title": "Region"},
-{"field": "Happiness Scores", "type": "quantitative", "format": ","},
+{"field": "HappinessScores", "title": "Happiness Scores","type": "quantitative", "format": ","},
 {"field": "GDP", "type": "quantitative", "format": ","},
 {"field": "SocialSupport", "type": "quantitative", "format": ","}
 
