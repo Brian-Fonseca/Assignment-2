@@ -37,7 +37,7 @@ null,
 "min": 2015,
 "max": 2020,
 "step": 1,
-"name": "Minimum Population: "
+"name": "Year: "
 }
 }
 ],
