@@ -53,7 +53,7 @@
   "mark": "bar",
   "encoding": {
     "x": {"aggregate": "sum", "field": "Total", "title": "Sum of factors"},
-    "y": {"field": "Country", "sort": {"encoding": "x"}},
+    "y": {"field": "Country", "sort": "-x"},
     "color": {"field": "Factor"},
     "tooltip": [{"field": "Country"}, {"field": "Factor"}, {"field": "Total"}
 
