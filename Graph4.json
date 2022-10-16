@@ -1,6 +1,6 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"width": 600,
+"width": 620,
 "height": 500,
 "title": "Sized Scatterplot for World Regions for 2022",
 "data": {
