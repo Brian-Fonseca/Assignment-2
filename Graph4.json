@@ -1,7 +1,7 @@
 {
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-"width": 500,
-"height": 400,
+"width": 600,
+"height": 500,
 "title": "Sized Scatterplot for World Regions for 2022",
 "data": {
 "url": "https://raw.githubusercontent.com/Brian-Fonseca/Assignment-2/main/Happiness%20Raw%20Data.csv"
