@@ -3,7 +3,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 400,
   "height": 300,
-"title": "Boxplots for Different Region's Happiness Scores",
+"title": "Boxplots for Different Regions Happiness Scores",
   "data": {"url": "https://raw.githubusercontent.com/Brian-Fonseca/Assignment-2/main/Happiness%20Raw%20Data.csv"},
   "params": [
 {
