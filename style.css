@@ -43,11 +43,3 @@ h1 {
     font-size: 14px;
     
 /* Add a gutter to Pure's Columns */
-.pure-g {
-  margin: 0 -1em;
-}
-
-.pure-g > div {
-  padding: 0 1em;
-}
-
