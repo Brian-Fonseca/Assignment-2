@@ -8,3 +8,5 @@ Happiness Raw Data.csv made using data from https://www.kaggle.com/datasets/math
 style.css made using https://github.com/FIT3179/Vega-Lite/tree/main/5_multiple_charts_html, which depicted how to make page using pure grid css
 
 Assignment2.html , followed similar structure to index.html from https://github.com/FIT3179/Vega-Lite/tree/main/5_multiple_charts_html, which incorporated javascript and vegalite, to embed json graphs. 
+
+Scores and description of Happiness scores, seen at https://worldhappiness.report/faq/ and information on weightings at https://www.gallup.com/178667/gallup-world-poll-work.aspx
