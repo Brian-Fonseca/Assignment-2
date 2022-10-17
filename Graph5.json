@@ -3,7 +3,7 @@
    "width": 240,
   "height": 300,
   "data": {"url": "https://raw.githubusercontent.com/Brian-Fonseca/Assignment-2/main/Happiness%20Raw%20Data.csv"},
-  "title": "2D Histogram Heatmap of record from 2015-2022",
+  "title": "2D Histogram Heatmap of records from 2015-2022",
   "params": [{
 "name": "Happiness_Score",
 "value": 0,
