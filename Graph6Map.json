@@ -38,7 +38,7 @@
             "fields": ["Happinessscore"]
           }
         },
-      {"calculate": "datum.Happinessscore", "as": "Happiness Score"},],
+      {"calculate": "datum.Happinessscore", "as": "Happiness Score"}],
       "mark" :{"type": "geoshape"},
 "encoding": {"color":{"field": "Happiness Score", "type": "quantitative", "scale": {"type": "threshold", "domain": [2,3,4,5,6,7], "range":["#edf8fb","#bfd3e6", "#9ebcda", "#8c96c6", "#8c96c6", "#8856a7","#810f7c"]}},
 "tooltip": [{"field": "properties.NAME", "type": "nominal", "title" : "Country"}, 
