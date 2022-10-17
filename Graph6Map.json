@@ -1,6 +1,6 @@
 {"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "World Happiness Scores for 2022",
-  "width": 780,
+  "width": 760,
   "height": 600,
   "data": {
     "url": "https://raw.githubusercontent.com/Brian-Fonseca/Assignment-2/main/ne_110m%20(1).json",
