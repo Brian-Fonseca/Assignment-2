@@ -43,9 +43,4 @@ h1 {
     font-size: 14px;
     
 /* Add a gutter to Pure's Columns */
-    .pure-g > div {
-        box-sizing: border-box;
-    }
-    .l-box {
-        padding: 1em;
-    }
+  
