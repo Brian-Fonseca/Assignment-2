@@ -4,3 +4,7 @@ JSON file for world maps and countries retreived from https://www.naturalearthda
 2022.csv obtained from https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2022.
 
 Happiness Raw Data.csv made using data from https://www.kaggle.com/datasets/mathurinache/world-happiness-report, but pivoted and rendered using excel so that columns needed fitted on 1 sheet and were easy to use when graphing 
+
+style.css made using https://github.com/FIT3179/Vega-Lite/tree/main/5_multiple_charts_html, which depicted how to make page using pure grid css
+
+Assignment2.html , followed similar structure to index.html from https://github.com/FIT3179/Vega-Lite/tree/main/5_multiple_charts_html, which incorporated javascript and vegalite, to embed json graphs. 
